@@ -1,0 +1,15 @@
+name: myenv
+dependencies:
+  - python=3.12.9
+  - pip:
+      - azureml-defaults
+      - scikit-learn
+      - pickle5
+      - torch
+      - torch-geometric
+      - numpy
+      - pandas
+      - matplotlib
+      - azure-ai-ml 
+      - azure-identity
+
